@@ -1,0 +1,38 @@
+.productPage{
+    position: absolute;
+    top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #b796e0;
+    border-radius: 10px;
+    border: 3px solid #690f94;
+    z-index: 999;
+}
+.mainImage{
+    width: 100%;
+    margin: 10px auto;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: white;
+}
+.close:hover{
+    color: #690f94;
+    cursor: pointer;
+}
+.name{
+    color: #690f94;
+    font-weight: bold;
+    font-size: 20px;
+}
+.info{
+    color: #370c59;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+}

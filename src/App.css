@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+.App{
+    width: 98vw;
+    background: linear-gradient(45deg, #0e0011, #0c0000, #000210, #0e0000, #130218, #0c0118);
+    margin: 0 auto;
+    min-height: 150vh;
+    position: relative;
+    backdrop-filter: blur(3px);
+}
+@media (max-width: 1005px) {
+    .App{
+        width: 97vw;
+    }
+}
+@media (max-width: 800px) {
+    .App{
+        width: 95vw;
+    }
+}

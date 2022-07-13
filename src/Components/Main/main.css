@@ -1,0 +1,79 @@
+.iconSearch{
+    width: 15px
+}
+.widthInput{
+    min-width: 300px!important;
+    max-width: 450px;
+}
+.widthsearch{
+    min-width: 310px!important;
+    max-width: 470px;
+}
+
+.bgViolet{
+    background-color: #36094b;
+}
+.textColor{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.textColor:hover{
+    color: #690f94;
+}
+.productChoose{
+    border: 3px #690f94 solid;
+    color: #690f94;
+    font-weight: bold;
+}
+.productChoose:hover{
+    color: white;
+    background-color: #690f94!important;
+}
+.cardStyle{
+    border: 1px #c097f3 solid;
+    width: 280px;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cardStyle:hover{
+    animation: boxShadowCard 1s ease-in infinite;
+    transform: scale(1.05);
+}
+.heightProductImg{
+    height: 200px;
+}
+.cardBody{
+    background: linear-gradient(45deg, #160118, #150101, #000418, #170101, #130218, #0c0118);
+    color: white;
+}
+.cardBody:hover{
+    border: none;
+    box-shadow: none;
+}
+.title{
+    color: #c292fc;
+}
+
+@media (max-width: 370px) {
+    .widthInput{
+        min-width: 260px!important;
+    }
+}
+@media (max-width: 638px) and (min-width: 575px){
+    .widthInput{
+        min-width: 260px!important;
+    }
+}
+@keyframes boxShadowCard {
+    0%{
+        box-shadow: 0 0 10px #c097f3;
+    }
+    50%{
+        box-shadow: 0 0 30px #c097f3;
+    }
+    100%{
+        box-shadow: 0 0 10px #c097f3;
+    }
+}

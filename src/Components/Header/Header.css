@@ -1,0 +1,43 @@
+
+h2{
+    animation: headertext 4s linear infinite;
+}
+h3{
+    animation: boxShadow 4s linear infinite;
+    color: #f2dcfd;
+
+}
+.selectStyle{
+    border: 4px #690f94 solid;
+    animation: headertext 4s linear infinite;
+    font-weight: bold;
+
+}
+@keyframes headertext {
+    0%{
+       color: #eac4fc
+    }
+    25%{
+       color: #cf5ff3
+    }
+    50%{
+       color: #a563f5
+    }
+    75%{
+        color: #c69ef6
+    }
+    100%{
+        color: #eac4fc
+    }
+    }
+@keyframes boxShadow {
+    0%{
+    box-shadow: 0 0 10px #622381;
+}
+    50%{
+    box-shadow: 0 0 40px #622381;
+}
+    100%{
+        box-shadow: 0 0 10px #622381;
+    }
+}
